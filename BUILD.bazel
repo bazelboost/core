@@ -17,7 +17,7 @@ cc_library(
     hdrs = glob(_public_hdrs),
     deps = [
         ":core_internal",
-        "@boost//config",
-        "@boost//assert",
+        "@boost//libs/config",
+        "@boost//libs/assert",
     ],
 )
